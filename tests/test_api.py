@@ -24,6 +24,7 @@ import pytest
 import hug
 
 api = hug.API(__name__)
+x = 21
 
 
 class TestAPI(object):
